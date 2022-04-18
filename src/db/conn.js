@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://localhost:27017/users_api" ,{ 
+mongoose.connect("mongodb+srv://Darshan:sparkle@darshan.rsyjh.mongodb.net/Angular-CRUD?retryWrites=true&w=majority" ,{ 
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then( ()=>{
